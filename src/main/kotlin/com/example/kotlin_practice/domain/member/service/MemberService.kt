@@ -7,5 +7,5 @@ import com.example.kotlin_practice.domain.member.dto.response.MemberResponse
 
 interface MemberService {
     fun signUp(request: MemberSignUpRequest): MemberResponse
-    fun login(request: LoginRequest): LoginResponse
+//    fun login(request: LoginRequest): LoginResponse
 }

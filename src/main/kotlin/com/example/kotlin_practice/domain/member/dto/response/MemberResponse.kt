@@ -1,4 +1,8 @@
 package com.example.kotlin_practice.domain.member.dto.response
 
-class MemberResponse {
-}
+data class MemberResponse (
+    var id: Long,
+    var name: String,
+    var email: String,
+    var role: String
+)
